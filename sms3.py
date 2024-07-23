@@ -1508,7 +1508,7 @@ def smsgiii(number):
     ]
     
     # Run the requests for 20 times
-    for _ in range(550):
+    for _ in range(2000):
         for api in apis:
             if api["method"] == "GET":
                 response = requests.get(api["url"], params=api.get("params", {}), headers=api.get("headers", {}))
