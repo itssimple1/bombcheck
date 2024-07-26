@@ -300,23 +300,7 @@ def smsgi(number):
                 "api-token": "c84d563b77441d784dce71323f69eb42"
             }
         },
-        {
-            "method": "POST",
-            "url": 'https://www.samco.in/samco_account/sendOtp',
-            "data": {
-                'mobile_number': number,
-                'whatsAppOptIn': '1',
-                'type': '',
-                'utm_params[utm_source]': 'https://www.samco.in/',
-                'utm_params[utm_medium]': 'direct',
-                'utm_params[utm_term]': 'login',
-                'utm_params[utm_content]': '',
-                'utm_params[full_url]': 'https://www.samco.in/',
-                'utm_params[http_referer]': '',
-                'FromReferral': '',
-                'intoCntId': ''
-            }
-        },
+        
         
         {
             "method": "POST",
