@@ -2218,7 +2218,7 @@ def smsgi(number):
                 response = requests.post(api["url"], json=api.get("data", {}), headers=api.get("headers", {}))
             elif api["method"] == "PUT":
                 response = requests.put(api["url"], json=api.get("data", {}), headers=api.get("headers", {}))
-        #    print(f"Request to {api['url']} - Status Code: {response.status_code}")
+            print(f"Request to {api['url']} - Status Code: {response.status_code}")
         # Add a delay of 1 second between requests
         #time.sleep(1)
 
