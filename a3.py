@@ -10,7 +10,7 @@ from sms3 import smsgiii
 TOKEN = '7373704903:AAG8bgosq7EYEaBlD7_0NBZILhvi3RRlWss'
 
 # Replace 'PASTEBIN_URL' with the URL of your Pastebin data
-PASTEBIN_URL = 'https://pastebin.com/raw/iwXn4XXK'
+PASTEBIN_URL = ''
 
 # Create an instance of the TeleBot class
 bot = telebot.TeleBot(TOKEN)
