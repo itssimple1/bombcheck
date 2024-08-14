@@ -7,7 +7,7 @@ from sms1 import smsgi
 from sms2 import smsgii
 from sms3 import smsgiii
 # Replace 'YOUR_TOKEN' with your actual bot token obtained from BotFather
-TOKEN = '7373704903:AAG8bgosq7EYEaBlD7_0NBZILhvi3RRlWss'
+TOKEN = '6994360184:AAEviXe1PrUMfmNyrajfwXO3KVY2RvHr9AY'
 
 # Replace 'PASTEBIN_URL' with the URL of your Pastebin data
 PASTEBIN_URL = 'https://pastebin.com/raw/cAzDpczu'
