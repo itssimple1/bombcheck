@@ -1,18 +1,20 @@
-# Use an official Python runtime as a parent image
-FROM python:3.11-slim
+#Use an official Python runtime as a parent image
+FROM python:3.9-slim
 
-# Set the working directory in the container
+#Set the working directory in the container
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY . /app
+#Copy the requirements file
+COPY requirements.txt .
 
-# Install dependencies (assuming requirements.txt exists)
+#Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose any necessary ports (this might vary depending on how the app works)
-# EXPOSE <port_number>
+#Copy the application code
+COPY . .
 
-# Command to run the application
-# If there is a script to run (e.g., bombcheck.py), use the following command:
-CMD ["python", "bombcheck.py"]
+#Expose the port the app will run on
+EXPOSE 5000
+
+#Run the command to start the app when the container launches
+CMD ["flask", "run", "--host=0.0.0.0"]
