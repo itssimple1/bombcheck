@@ -7,10 +7,10 @@ from sms1 import smsgi
 from sms2 import smsgii
 from sms3 import smsgiii
 # Replace 'YOUR_TOKEN' with your actual bot token obtained from BotFather
-TOKEN = '6994360184:AAEviXe1PrUMfmNyrajfwXO3KVY2RvHr9AY'
+TOKEN = '7973509105:AAHNqciC9Vfv0Q3RtrJTyyB-eMupFPvhxNk'
 
 # Replace 'PASTEBIN_URL' with the URL of your Pastebin data
-PASTEBIN_URL = 'https://pastebin.com/raw/cAzDpczu'
+PASTEBIN_URL = 'https://pastebin.com/raw/mwC1gQnh'
 
 # Create an instance of the TeleBot class
 bot = telebot.TeleBot(TOKEN)
@@ -22,7 +22,7 @@ def handle_start(message):
     if check_user_access(message.from_user.id):
         bot.reply_to(message, "𝐇𝐞𝐥𝐥𝐨! 𝐈'𝐦 𝐀𝐥𝐟𝐚 𝐁𝐨𝐦𝐛𝐞𝐫 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 𝐛𝐨𝐦𝐛𝐞𝐫 𝐁𝐨𝐭 𝐜𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐬𝐭𝐚𝐫𝐭 /attack")
     else:
-        bot.reply_to(message, "🔐𝙂𝙚𝙩 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙤𝙛 𝙩𝙝𝙞𝙨 𝘽𝙤𝙩 𝘾𝙤𝙣𝙩𝙖𝙘𝙩🔐 @Hackeroffline")
+        bot.reply_to(message, "🔐𝙂𝙚𝙩 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙤𝙛 𝙩𝙝𝙞𝙨 𝘽𝙤𝙩 𝘾𝙤𝙣𝙩𝙖𝙘𝙩🔐 @realsaberxd")
 
 # Define a handler for the '/menu' command
 @bot.message_handler(commands=['attack'])
@@ -31,7 +31,7 @@ def handle_attack(message):
     if check_user_access(message.from_user.id):
         bot.reply_to(message, "𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐭𝐞𝐫 𝐚 𝟏𝟎-𝐝𝐢𝐠𝐢𝐭 𝐧𝐮𝐦𝐛𝐞𝐫.")
     else:
-        bot.reply_to(message, "💠️ 𝙂𝙚𝙩 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙤𝙛 𝙩𝙝𝙞𝙨 𝘽𝙤𝙩 𝘾𝙤𝙣𝙩𝙖𝙘𝙩 💠 @Hackeroffline.")
+        bot.reply_to(message, "💠️ 𝙂𝙚𝙩 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙤𝙛 𝙩𝙝𝙞𝙨 𝘽𝙤𝙩 𝘾𝙤𝙣𝙩𝙖𝙘𝙩 💠 @realsaberxd.")
 
 # Define a handler for regular text messages
 @bot.message_handler(func=lambda message: True)
