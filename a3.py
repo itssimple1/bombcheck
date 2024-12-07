@@ -84,3 +84,6 @@ def handle_phone_number(message):
 
 # Run the bot
 bot.polling()
+
+app = Flask(__name__)  
+  
